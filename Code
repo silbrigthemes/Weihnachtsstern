@@ -23,7 +23,7 @@ If you need any help for a problem that is not listed in the customization guide
 -->
 
     <head>
-    
+
     <meta charset="utf-16">
     <title>{Title}</title>
     {block:Description}
@@ -72,7 +72,7 @@ If you need any help for a problem that is not listed in the customization guide
             });
         });
     </script>
-    
+
     <!-- Other fonts. -->
     <!-- Roboto Mono -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&amp;subset=cyrillic-ext,greek-ext,latin-ext,vietnamese" rel="stylesheet">
@@ -80,7 +80,7 @@ If you need any help for a problem that is not listed in the customization guide
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
     <!-- Dancing Script -->
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-    
+
     <!-- Title Font -->
     <!-- Playfair Display -->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&amp;subset=cyrillic,latin-ext,vietnamese" rel="stylesheet">
@@ -88,7 +88,7 @@ If you need any help for a problem that is not listed in the customization guide
     <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
     <!-- Taviraj -->
     <link href="https://fonts.googleapis.com/css?family=Taviraj:300,400,700&amp;subset=latin-ext,thai,vietnamese" rel="stylesheet">
-    
+
     <!-- Body Font -->
     <!-- Lato -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;subset=latin-ext" rel="stylesheet">
@@ -96,29 +96,29 @@ If you need any help for a problem that is not listed in the customization guide
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
     <!-- Roboto -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
-    
+
     <meta name="if:Show Captions" content="0"/>
     <meta name="if:Background Image" content="1"/>
-    
+
     <meta name="select:Ordered List" content="decimal" title="decimal"/>
     <meta name="select:Ordered List" content="lower-greek" title="lower greek"/>
     <meta name="select:Ordered List" content="lower-latin" title="lower latin"/>
     <meta name="select:Ordered List" content="upper-roman" title="upper roman"/>
-    
+
     <meta name="select:Font Size" content="1em" title="16px"/>
-    
+
     <meta name="select:Font" content="Lato" title="Lato"/>
     <meta name="select:Font" content="Open Sans" title="Open Sans"/>
     <meta name="select:Font" content="Roboto" title="Roboto"/>
-    
+
     <meta name="select:Title Font" content="Playfair Display" title="Playfair Display"/>
     <meta name="select:Title Font" content="Merriweather" title="Merriweather"/>
     <meta name="select:Title Font" content="Taviraj" title="Taviraj"/>
-    
+
     <meta name="text:Unordered List" content="e338"/>
     <meta name="text:Sidebar Opacity" content="0.85"/>
     <meta name="text:Post Opacity" content="0.9"/>
-    
+
     <meta name="text:Custom URL 1" content="/"/>
     <meta name="text:Custom Link 1" content="custom link"/>
     <meta name="text:Custom Icon 1" content="link-o"/>
@@ -128,9 +128,9 @@ If you need any help for a problem that is not listed in the customization guide
     <meta name="text:Custom URL 3" content="/"/>
     <meta name="text:Custom Link 3" content="custom link"/>
     <meta name="text:Custom Icon 3" content="link-o"/>
-    
+
     <meta name="image:Background Image" content="https://images.unsplash.com/photo-1513885251266-04dcfa26e979?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80"/>
-    
+
     <meta name="color:Background" content="#c1b9b5"/>
     <meta name="color:Bold" content="#51020b"/>
     <meta name="color:Border 1" content="#95112d"/>
@@ -138,6 +138,7 @@ If you need any help for a problem that is not listed in the customization guide
     <meta name="color:Border 3" content="#612533"/>
     <meta name="color:Border 4" content="#dbd4ce"/>
     <meta name="color:Italic" content="#050001"/>
+    <meta name="color:Posts" content="#eee7e2"/>
     <meta name="color:Sidebar Background" content="#95112d"/>
     <meta name="color:Star" content="#dbd4ce"/>
     <meta name="color:Text" content="#2b0106"/>
@@ -149,9 +150,9 @@ If you need any help for a problem that is not listed in the customization guide
     <meta name="color:Green" content="#19db21"/>
     <meta name="color:Blue" content="#1972db"/>
     <meta name="color:Purple" content="#8319db"/>
-    
+
         <style>
-            
+
             body{
                 margin:0;
                 top:0;
@@ -169,7 +170,7 @@ If you need any help for a problem that is not listed in the customization guide
                 color:{color:Text};
                 text-align:justify;
             }
-            
+
             /*** EXTRAS ***/
             /* Custom Scrollbar */
             ::-webkit-scrollbar{
@@ -177,39 +178,39 @@ If you need any help for a problem that is not listed in the customization guide
                 background-color:{color:Border 1};
                 border:4px solid {color:Border 4};
             }
-            
+
             ::-webkit-scrollbar-thumb{
                 width:10px;
                 background-color:{color:Border 4};
                 border:4px double {color:Border 1};
                 border-radius:5px;
             }
-            
+
             /* Custom Text Selection */
             ::selection{
                 background-color:{color:Border 1};
                 color:{color:Border 2};
                 text-shadow:none;
             }
-            
+
             ::-moz-selection{
                 background-color:{color:Border 1};
                 color:{color:Border 2};
                 text-shadow:none;
             }
-            
+
             ::-o-selection{
                 background-color:{color:Border 1};
                 color:{color:Border 2};
                 text-shadow:none;
             }
-            
+
             ::-webkit-selection{
                 background-color:{color:Border 1};
                 color:{color:Border 2};
                 text-shadow:none;
             }
-            
+
             /* Custom Tooltips */
             #s-m-t-tooltip{
                 max-width:300px;
@@ -224,37 +225,37 @@ If you need any help for a problem that is not listed in the customization guide
                 font-weight:300;
                 border-radius:1.5em;
             }
-            
+
             /*** TEXT STYLES ***/
             /* Bold Text */
             b, strong{
                 font-weight:700, bold;
                 color:{color:Bold};
             }
-            
+
             /* Italic Text */
             i, em{
                 font-style:italic;
                 font-weight:300;
                 color:{color:Italic};
             }
-            
+
             /* Small Text */
             small{
                 font-size:calc({select:Font Size} - 2px);
             }
-            
+
             /* Underlined Text */
             u{
                 text-decoration:none;
                 border-bottom:2px solid {color:Text};
             }
-            
+
             /* Empty Paragraph */
             p:empty{
                 display:none;
             }
-            
+
             /* Line Break */
             hr{
                 width:80%;
@@ -263,14 +264,14 @@ If you need any help for a problem that is not listed in the customization guide
                 border:4px double {color:Border 1};
                 border-radius:6px;
             }
-            
+
             /* Marked Text */
             mark{
                 background-color:{color:Title};
                 color:{color:Border 2};
                 padding:0 0.25em;
             }
-            
+
             /* Links */
             a{
                 color:{color:Title};
@@ -281,7 +282,7 @@ If you need any help for a problem that is not listed in the customization guide
                 -o-transition:0.5s;
                 -webkit-transition:0.5s;
             }
-            
+
             a:hover{
                 color:{color:Border 3};
                 text-decoration:none;
@@ -291,14 +292,14 @@ If you need any help for a problem that is not listed in the customization guide
                 -o-transition:0.5s;
                 -webkit-transition:0.5s;
             }
-            
+
             /* Blockquote*/
             blockquote{
                 border:4px double {color:Border 1};
                 padding:0.25em 0.5em;
                 border-radius:1em;
             }
-            
+
             /* Preformatted Text */
             pre{
                 font-family:"Roboto Mono", Courier;
@@ -314,7 +315,7 @@ If you need any help for a problem that is not listed in the customization guide
                 word-wrap:break-all;
                 white-space:pre-wrap;
             }
-            
+
             /* Read More */
             p.read_more_container{
                 border:4px double {color:Border 1};
@@ -345,7 +346,7 @@ If you need any help for a problem that is not listed in the customization guide
             p.tmblr-attribution a{
                 border-bottom:none;
             }
-             
+
             /** LISTS **/
             /* Unordered List */
             ul{
@@ -368,7 +369,7 @@ If you need any help for a problem that is not listed in the customization guide
             ol{
                 list-style-type:{select:Ordered List};
             }
-            
+
             /** HEADINGS **/
             /* Post Title */
             .title{
@@ -377,19 +378,19 @@ If you need any help for a problem that is not listed in the customization guide
                 font-family:{select:Title Font}, Georgia;
                 text-align:center;
             }
-            
+
             /* First Heading */
             h1{
                 font-size:calc(1.75 * {select:Font Size});
                 font-weight:normal;
             }
-            
+
             /* Second Heading */
             h2{
                 font-size:calc(1.5 * {select:Font Size});
                 font-weight:300;
             }
-            
+
             /** COLORED TEXT **/
             /* Red Text */
             .npf_color_joey {
@@ -443,7 +444,7 @@ If you need any help for a problem that is not listed in the customization guide
                 font-family:"Cormorant Garamond", "Palatino";
                 font-size:calc(1.5 * {select:Font Size});
             }
-            
+
             /*** SIDEBAR ***/
             #sidebar{
                 top:0;
@@ -458,7 +459,7 @@ If you need any help for a problem that is not listed in the customization guide
                 justify-content:center;
                 flex-direction:column;
             }
-            
+
             #star-container{
                 width:50px;
                 height:50px;
@@ -466,7 +467,7 @@ If you need any help for a problem that is not listed in the customization guide
                 top:1em;
                 left:0.5em;
             }
-            
+
             #star-container2{
                 width:50px;
                 height:50px;
@@ -474,7 +475,7 @@ If you need any help for a problem that is not listed in the customization guide
                 top:1em;
                 left:calc(50vw - (0.5em + 50px));
             }
-            
+
             #star-container3{
                 width:50px;
                 height:50px;
@@ -482,7 +483,7 @@ If you need any help for a problem that is not listed in the customization guide
                 bottom:-1em;
                 left:0.5em;
             }
-            
+
             #star-container4{
                 width:50px;
                 height:50px;
@@ -490,7 +491,7 @@ If you need any help for a problem that is not listed in the customization guide
                 bottom:-1em;
                 left:calc(50vw - (0.5em + 50px));
             }
-            
+
             .star {
                 margin: 0;
                 position: relative;
@@ -504,7 +505,7 @@ If you need any help for a problem that is not listed in the customization guide
                 transform: rotate(35deg);
                 content:"";
             }
-            
+
             .star:before {
                 border-bottom: 20px solid {color:Star};
                 border-left: 7.5px solid transparent;
@@ -518,7 +519,7 @@ If you need any help for a problem that is not listed in the customization guide
                 content: '';
                 transform: rotate(-35deg);
             }
-            
+
             .star:after {
                 position: absolute;
                 display: block;
@@ -532,7 +533,7 @@ If you need any help for a problem that is not listed in the customization guide
                 transform: rotate(-70deg);
                 content: '';
             }
-            
+
             #s-icon img{
                 width:72px;
                 height:72px;
@@ -540,18 +541,18 @@ If you need any help for a problem that is not listed in the customization guide
                 border:4px double {color:Border 4};
                 margin-bottom:8px;
             }
-            
+
             #s-title{
                 color:{color:Border 4};
                 font-size:calc(2 * {select:Font Size});
                 font-family:{select:Title Font}, Georgia;
             }
-            
+
             #s-desc{
                 color:{color:Border 4};
                 text-align:center;
             }
-            
+
             #s-nav{
                 width:calc(30vw - 1em);
                 margin-top:0.5em;
@@ -560,12 +561,12 @@ If you need any help for a problem that is not listed in the customization guide
                 justify-content:space-evenly;
                 align-items:center;
             }
-            
+
             a.navlink{
                 text-decoration:none;
                 border-bottom:none;
             }
-            
+
             .nav{
                 width:32px;
                 height:32px;
@@ -582,7 +583,7 @@ If you need any help for a problem that is not listed in the customization guide
                 -o-transition:0.5s;
                 -webkit-transition:0.5s;
             }
-            
+
             .nav:hover{
                 background-color:{color:Border 4};
                 color:{color:Border 3};
@@ -592,21 +593,21 @@ If you need any help for a problem that is not listed in the customization guide
                 -o-transition:0.5s;
                 -webkit-transition:0.5s;
             }
-            
+
             #searchbar{
                 margin-top:8px;
             }
-            
+
             .sfm input {
-                background-color: {color:Border 3}; 
+                background-color: {color:Border 3};
                 border:4px double {color:Border 4};
                 border-radius:20px;
-                font-size: calc({select:Font Size} - 6px); 
-                text-transform: uppercase; 
+                font-size: calc({select:Font Size} - 6px);
+                text-transform: uppercase;
                 text-align:center;
-                margin-top: 0px; 
-                color: {color:Border 4}; 
-                letter-spacing: 1px; 
+                margin-top: 0px;
+                color: {color:Border 4};
+                letter-spacing: 1px;
                 padding: 4px 8px;
                 font-family: {select:Font}, Verdana;
                 transition:0.5s;
@@ -614,9 +615,9 @@ If you need any help for a problem that is not listed in the customization guide
                 -o-transition:0.5s;
                 -webkit-transition:0.5s;
             }
-            
+
             .sfm:hover input{
-                background-color: {color:Border 4}; 
+                background-color: {color:Border 4};
                 border:4px double {color:Border 3};
                 color: {color:Border 3};
                 transition:0.5s;
@@ -624,11 +625,11 @@ If you need any help for a problem that is not listed in the customization guide
                 -o-transition:0.5s;
                 -webkit-transition:0.5s;
             }
-            
+
             #posts{
                 margin-left:50vw;
             }
-            
+
             article{
                 width:calc(40vw - (2em + 4px));
                 margin-left:5vw;
@@ -637,32 +638,32 @@ If you need any help for a problem that is not listed in the customization guide
                 border:4px double {color:Border 1};
                 margin-top:3em;
                 margin-bottom:3em;
-                background-color:{color:Border 2};
-                background-color:rgba({RGBcolor:Border 2},{text:Post Opacity});
+                background-color:{color:Posts};
+                background-color:rgba({RGBcolor:Posts},{text:Post Opacity});
             }
-            
+
             article img{
                 max-width:100%;
                 border-radius:1em;
             }
-            
+
             /** AUDIO POST **/
             .audio > iframe{
                 width:100%;
                 max-width:100%;
             }
-            
+
             .audio iframe.tumblr_audio_player{
                 border:4px double {color:Border 1};
                 border-radius:1em;
             }
-            
+
             /** VIDEO POST **/
             .video > iframe{
                 width:100%;
                 max-width:100%;
             }
-            
+
             /** QUOTE POST **/
             .quoted{
                 font-size:calc(1.5 * {select:Font Size});
@@ -671,57 +672,57 @@ If you need any help for a problem that is not listed in the customization guide
                 font-style:italic;
                 color:{color:Title};
             }
-            
+
             .quote-source{
                 margin-top:8px;
             }
-            
+
             /** PHOTOSET POSTS **/
             .photo-row {
                 padding:0.2em 0em;
                 display:flex;
             }
-             
+
             .photo-row:first-child {
             	padding-top:0;
             }
-            
+
             .photo-row:last-child {
             	padding-bottom:0;
             }
-            
+
             .image-container {
                 cursor:pointer;
                 padding:0 0.2em;
             }
-            
+
             .image-container:first-child {
                 padding-left:0;
             }
-            
+
             .image-container:last-child {
                 padding-right:0;
             }
-            
+
             .image {
                 width:100%;
                 height:100%;
             	display:block;
                 object-fit:cover;
             }
-            
+
             .photo-row-1 .image-container {
                 width:100%;
             }
-            
+
             .photo-row-2 .image-container {
                 width:50%;
             }
-            
+
             .photo-row-3 .image-container {
                 width:33.3333333%;
             }
-            
+
             /** CHAT **/
             /* Containers */
             .chatterbox{
@@ -787,7 +788,7 @@ If you need any help for a problem that is not listed in the customization guide
                 border-bottom:2px solid {color:Border 1};
                 color:{color:Title};
             }
-            
+
             /** QUESTIONS **/
             /* ANSWER */
             .answer{
@@ -879,7 +880,7 @@ If you need any help for a problem that is not listed in the customization guide
                margin-top:2em;
                color:{color:Border 2};
            }
-           
+
            .question-username a:hover{
                color:{color:Border 1};
            }
@@ -906,7 +907,7 @@ If you need any help for a problem that is not listed in the customization guide
                 -o-transition:0.5s;
                 -webkit-transition:0.5s;
            }
-           
+
            /** LINK POSTS **/
             .link-posts{
                 width:100%;
@@ -948,7 +949,7 @@ If you need any help for a problem that is not listed in the customization guide
                 width:100%;
                 max-width:100%;
             }
-            
+
             /*** USER SPECIFICATIONS ***/
            /** USERNAME **/
             .username{
@@ -1005,7 +1006,7 @@ If you need any help for a problem that is not listed in the customization guide
                 -o-transition:0.5s;
                 -webkit-transition:0.5s;
             }
-            
+
             /*** PERMALINK PAGE ***/
             /* User Avatar */
             img.avatar{
@@ -1030,7 +1031,7 @@ If you need any help for a problem that is not listed in the customization guide
                 line-height:1.5em;
                 margin-left:-2em;
             }
-            
+
             /* Original Post */
             li.reblog.original_post:before{
                 content:"\e912";
@@ -1109,7 +1110,7 @@ If you need any help for a problem that is not listed in the customization guide
                 -o-transition:0.5s;
                 -webkit-transition:0.5s;
             }
-            
+
             /*** POST FOOTER ***/
             .post-footer{
                 margin-top:1em;
@@ -1139,7 +1140,7 @@ If you need any help for a problem that is not listed in the customization guide
                 border-bottom:none;
                 box-shadow:none;
             }
-            
+
             /** TIMESTAMP **/
             /* Timestamp Mark */
             .time mark{
@@ -1383,7 +1384,7 @@ If you need any help for a problem that is not listed in the customization guide
                 -o-transition:0.5s;
                 -webkit-transition:0.5s;
             }
-            
+
             /*** PAGINATION ***/
             /* Container */
             #f-pagination{
@@ -1429,13 +1430,13 @@ If you need any help for a problem that is not listed in the customization guide
                 -o-transition:0.5s;
                 -webkit-transition:0.5s;
             }
-            
+
             /*** MORE ***/
             /* Hides the tumblr app button, by @yeoli-thm */
             .tmblr-iframe--app-cta-button {
                 display: none!important;
             }
-            
+
             /** CUSTOM LIGHTBOX **/
             /* Custom Lightbox */
             .vignette, #vignette {
@@ -1454,7 +1455,7 @@ If you need any help for a problem that is not listed in the customization guide
             a.tumblr-box{
                 border-bottom:none;
             }
-            
+
             /** CUSTOM TUMBLR CONTROLS **/
             /* Hides standard tumblr controls */
             body > iframe:first-child {
@@ -1504,13 +1505,13 @@ If you need any help for a problem that is not listed in the customization guide
                 -o-transition:0.5s;
                 -webkit-transition:0.5s;
             }
-            
+
             /*** RESPONSIVE LAYOUT ***/
             @media only screen and (max-width:800px){
                 #sidebar{
                     display:none;
                 }
-                
+
                 #big-box{
                     height:240px;
                     width:40px;
@@ -1518,24 +1519,24 @@ If you need any help for a problem that is not listed in the customization guide
                     top:calc(50vh - 120px);
                     flex-direction:column;
                 }
-                
+
                 .box{
                     background-color:{color:Border 1};
                     color:{color:Border 2};
                     border:4px double {color:Border 2};
                 }
-    
+
                 .box:hover{
                     background-color:{color:Border 2};
                     color:{color:Border 1};
                     border:4px double {color:Border 1};
                 }
-                
+
                 #posts{
                     width:100vw;
                     margin-left:0;
                 }
-                
+
                 /* HEADER */
                 #header{
                     width:calc(80vw - 2em);
@@ -1552,30 +1553,30 @@ If you need any help for a problem that is not listed in the customization guide
                     justify-content:center;
                     flex-direction:column;
                 }
-                
+
                 #h-info{
                     display:flex;
                     align-items:center;
                     justify-content:center;
                 }
-                
+
                 #h-icon img{
                     width:80px;
                     height:80px;
                     border-radius:50%;
                     border:4px double {color:Border 1};
                 }
-                
+
                 #h-stats{
                     margin-left:16px;
                 }
-                
+
                 #h-title{
                     color:{color:Title};
                     font-family:{select:Title Font}, Georgia;
                     font-size:calc(2.5 * {select:Font Size});
                 }
-                
+
                 #h-nav{
                     width:100%;
                     margin-top:0.5em;
@@ -1585,12 +1586,12 @@ If you need any help for a problem that is not listed in the customization guide
                     justify-content:space-evenly;
                     align-items:center;
                 }
-                
+
                 a.h-navlink{
                     text-decoration:none;
                     border-bottom:none;
                 }
-                
+
                 .h-nav{
                     width:32px;
                     height:32px;
@@ -1608,7 +1609,7 @@ If you need any help for a problem that is not listed in the customization guide
                     -o-transition:0.5s;
                     -webkit-transition:0.5s;
                 }
-                
+
                 .h-nav:hover{
                     background-color:{color:Border 1};
                     color:{color:Border 2};
@@ -1618,22 +1619,22 @@ If you need any help for a problem that is not listed in the customization guide
                     -o-transition:0.5s;
                     -webkit-transition:0.5s;
                 }
-                
+
                 #h-searchbar{
                     margin-top:8px;
                     width:100%;
                 }
-                
+
                 .h-sfm input {
                     background-color:{color:Border 2};
                     color:{color:Border 1};
                     border:4px double {color:Border 1};
                     border-radius:20px;
-                    font-size: calc({select:Font Size} - 6px); 
-                    text-transform: uppercase; 
+                    font-size: calc({select:Font Size} - 6px);
+                    text-transform: uppercase;
                     text-align:center;
-                    margin-top: 0px; 
-                    letter-spacing: 1px; 
+                    margin-top: 0px;
+                    letter-spacing: 1px;
                     padding: 4px 8px;
                     font-family: "Open Sans", Verdana;
                     width:calc(100% - 16px);
@@ -1642,7 +1643,7 @@ If you need any help for a problem that is not listed in the customization guide
                     -o-transition:0.5s;
                     -webkit-transition:0.5s;
                 }
-                
+
                 .h-sfm:hover input{
                     background-color:{color:Border 1};
                     color:{color:Border 2};
@@ -1652,12 +1653,12 @@ If you need any help for a problem that is not listed in the customization guide
                     -o-transition:0.5s;
                     -webkit-transition:0.5s;
                 }
-                
+
                 article{
                     width:calc(80vw - 2em);
                     margin-left:10vw;
                 }
-                
+
                 /* FOOTER */
                 #footer{
                     width:calc(80vw - 2em);
@@ -1673,7 +1674,7 @@ If you need any help for a problem that is not listed in the customization guide
                     align-items:center;
                     justify-content:center;
                 }
-                
+
                 #f-pagination{
                     width:240px;
                     left:calc(25vw - 120px);
@@ -1684,13 +1685,13 @@ If you need any help for a problem that is not listed in the customization guide
                     justify-content:space-evenly;
                     bottom:1.5em;
                 }
-                
+
                 a.pagi-link{
                     text-decoration:none;
                     border-bottom:none;
                     box-shadow:none;
                 }
-    
+
                 .pagi-box{
                     width:32px;
                     height:32px;
@@ -1706,7 +1707,7 @@ If you need any help for a problem that is not listed in the customization guide
                     -o-transition:0.5s;
                     -webkit-transition:0.5s;
                 }
-    
+
                 .pagi-box:hover{
                     background-color:{color:Border 1};
                     color:{color:Border 2};
@@ -1717,18 +1718,18 @@ If you need any help for a problem that is not listed in the customization guide
                     -webkit-transition:0.5s;
                 }
             }
-            
+
             @media only screen and (min-width:800px){
                 #header, #footer{
                     display:none;
                 }
             }
-            
+
         </style>
     </head>
-    
+
     <body>
-        
+
         <!-- CUSTOM TUMBLR CONTROLS -->
         <div id="big-box">
             <a href="https://www.tumblr.com/dashboard" title="go to dashboard" class="boxlink">
@@ -1761,17 +1762,17 @@ If you need any help for a problem that is not listed in the customization guide
                 </div>
             </a>
         </div>
-        
+
         <!-- SIDEBAR -->
         <div id="sidebar">
             <div id="star-container">
                 <div class="star"></div>
             </div>
-            
+
              <div id="star-container2">
                 <div class="star"></div>
             </div>
-            
+
             <div id="s-icon">
                 <img src="{PortraitURL-128}" alt="{Name}'s icon"/>
             </div>
@@ -1826,7 +1827,7 @@ If you need any help for a problem that is not listed in the customization guide
                     <input type="text" name="q" value="SEARCH"/>
                 </form>
             </div>
-            
+
             <!-- PAGINATION -->
             <div id="f-pagination">
                 {block:Pagination}
@@ -1838,7 +1839,7 @@ If you need any help for a problem that is not listed in the customization guide
                         </div>
                     </a>
                     {/block:PreviousPage}
-    
+
                     <!-- Jump Pagination -->
                     {block:JumpPagination length="3"}
                     {block:CurrentPage}
@@ -1852,7 +1853,7 @@ If you need any help for a problem that is not listed in the customization guide
                     </a>
                     {/block:JumpPage}
                     {/block:JumpPagination}
-    
+
                     <!-- Next Page -->
                     {block:NextPage}
                     <a class="f-pagi-link" href="{NextPage}" title="next">
@@ -1863,19 +1864,19 @@ If you need any help for a problem that is not listed in the customization guide
                     {/block:NextPage}
                 {/block:Pagination}
             </div>
-            
+
             <div id="star-container3">
                 <div class="star"></div>
             </div>
-            
+
             <div id="star-container4">
                 <div class="star"></div>
             </div>
-            
+
         </div>
-        
+
         <div id="posts">
-        
+
             <!-- RESPONSIVE HEADER -->
             <!-- Only visible if device width < 800px -->
             <div id="header">
@@ -1888,7 +1889,7 @@ If you need any help for a problem that is not listed in the customization guide
                         <div id="h-desc">{Description}</div>
                     </div>
                 </div>
-                
+
                 <div id="h-nav">
                     <!-- Home Link -->
                     <a href="/" title="home" class="h-navlink">
@@ -1933,14 +1934,14 @@ If you need any help for a problem that is not listed in the customization guide
                         </div>
                     </a>
                 </div>
-                
+
                 <div id="h-searchbar">
                     <form action="/search" method="get" class="h-sfm" name="theform">
                         <input type="text" name="q" value="SEARCH"/>
                     </form>
                 </div>
             </div>
-            
+
             <!-- POSTS -->
             {block:Posts}
                   <article>
@@ -2406,7 +2407,7 @@ If you need any help for a problem that is not listed in the customization guide
                   {/block:PermalinkPage}
                 </article>
             {/block:Posts}
-            
+
             <div id="footer">
                 <!-- PAGINATION -->
                 <div id="pagination">
@@ -2419,7 +2420,7 @@ If you need any help for a problem that is not listed in the customization guide
                             </div>
                         </a>
                         {/block:PreviousPage}
-        
+
                         <!-- Jump Pagination -->
                         {block:JumpPagination length="3"}
                         {block:CurrentPage}
@@ -2433,7 +2434,7 @@ If you need any help for a problem that is not listed in the customization guide
                         </a>
                         {/block:JumpPage}
                         {/block:JumpPagination}
-        
+
                         <!-- Next Page -->
                         {block:NextPage}
                         <a class="pagi-link" href="{NextPage}" title="next">
@@ -2445,9 +2446,9 @@ If you need any help for a problem that is not listed in the customization guide
                     {/block:Pagination}
                 </div>
             </div>
-            
+
         </div>
-        
+
         <!-- SCRIPTS -->
         <script>
 
@@ -2533,6 +2534,6 @@ If you need any help for a problem that is not listed in the customization guide
         	}
         }
         </script>
-        
+
     </body>
 </html>
