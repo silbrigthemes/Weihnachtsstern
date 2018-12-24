@@ -20,7 +20,7 @@ Theme #12, Weihnachtsstern, by silbrigthemes.
 <li>Custom audio background.</li>
 <li>Custom scrollbar.</li>
 <li>Custom mobile toolbar.</li>
-<li>18 color options.</li>
+<li>19 color options.</li>
 <li>Three custom fonts and three title fonts.</li>
 <li>Optional background image.</li>
 <li>Four CSS stars.</li>
