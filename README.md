@@ -1,5 +1,14 @@
 # Weihnachtsstern
-Theme #12, Weihnachtsstern, by silbrigthemes.
+<p>Theme #12, Weihnachtsstern, by silbrigthemes.</p>
+<img src="https://66.media.tumblr.com/7fcd0ec9c4e1e38b7321490f05caa7f4/tumblr_pk0d78BKk01wsskx3o2_r1_1280.png" alt="Screenshot"/>
+<p>Screenshot of the theme. You can find the <a href="https://weihnachtssterntheme.tumblr.com/" title="Live Preview">live preview here</a>.</p>
+
+<h2>Directory</h2>
+<ul>
+  <li><a href="#features" title="go to features">Features</a></li>  
+  <li><a href="#customization-guide" title="go to customization guide">Customization Guide</a></li>
+  <li><a href="#credits" title="go to credits">Credits</a></li>  
+</ul>  
 
 <h2>Features</h2>
 <h3>Layout</h3>
