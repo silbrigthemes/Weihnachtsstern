@@ -179,7 +179,7 @@ Theme #12, Weihnachtsstern, by silbrigthemes.
 </ul>
 <h4>Sidebar Background</h4>
 <p>This color is for the background color of the sidebar.</p>
-<h2>Star</h2>
+<h4>Star</h4>
 <p>This color is the background color for the four CSS stars.</p>
 <h4>Text</h4>
 <ul>
@@ -200,7 +200,8 @@ Theme #12, Weihnachtsstern, by silbrigthemes.
 <p>These colors are for Tumblr&rsquo;s colored text, so that they can be changed for better readability on other background colors.</p>
 
 <hr>
-<h3>Credits</h3>
+<hr>
+<h2>Credits</h2>
 <ul>
 <li><a href="http://honeybee.suiomi.com/" target="_blank">Icon font "honeybee"</a>, by suiomi.</li>
 <li><a href="https://unsplash.com/photos/r0eEDn1GAKw" target="_blank">Background image</a>, by freestocks.org.</li>
