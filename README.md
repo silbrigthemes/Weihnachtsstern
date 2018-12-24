@@ -5,8 +5,43 @@
 
 <h2>Directory</h2>
 <ul>
-  <li><a href="#features" title="go to features">Features</a></li>  
+  <li><a href="#features" title="go to features">Features</a></li>
+    <ul>
+      <li><a href="#layout" title="go to layout">Layout</a></li>
+      <li><a href="#extras" title="go to extras">Extras</a></li>
+    </ul>  
   <li><a href="#customization-guide" title="go to customization guide">Customization Guide</a></li>
+    <ul>
+       <li><a href="#golden-rules" title="go to golden rules">Golden Rules</a></li>
+       <li><a href="#colors" title="go to colors">Colors</a></li>
+        <ul>
+          <li><a href="#background" title="go to background">Background</a></li>
+          <li><a href="#bold" title="go to bold">Bold</a></li>
+          <li><a href="#border-1" title="go to border 1">Border 1</a></li>
+            <ul>
+              <li><a href="#extras-1" title="go to extras">Extras</a></li>
+              <li><a href="#posts" title="go to posts">Posts</a></li>
+              <li><a href="#post-information" title="go to post-information">Post Information</a></li>
+              <li><a href="#responsive-layout" title="go to responsive-layout">Responsive Layout</a></li>
+            </ul>
+          <li><a href="#border-2" title="go to border-2">Border 2</a></li>
+            <ul>
+              <li><a href="#extras-2" title="go to extras">Extras</a></li>
+              <li><a href="#questions" title="go to questions">Questions</a></li>
+              <li><a href="#post-information-1" title="go to post-information">Post Information</a></li>
+              <li><a href="#responsive-layout-1" title="go to responsive-layout">Responsive Layout</a></li>
+            </ul>
+          <li><a href="#border-3" title="go to border-3">Border 3</a></li>
+          <li><a href="#border-4" title="go to border-4">Border 4</a></li>
+          <li><a href="#italic" title="go to italic">Italic</a></li>
+          <li><a href="#posts-1" title="go to posts">Posts</a></li>
+          <li><a href="#sidebar-background" title="go to sidebar-background">Sidebar Background</a></li>
+          <li><a href="#star" title="go to star">Star</a></li>
+          <li><a href="#text" title="go to text">Text</a></li>
+          <li><a href="#title" title="go to title">Title</a></li>
+          <li><a href="#pinkredorangeyellowgreenbluepurple" title="go to colored text">Colored Text</a></li>
+      </ul>
+    </ul>  
   <li><a href="#credits" title="go to credits">Credits</a></li>  
 </ul>  
 
