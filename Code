@@ -68,7 +68,7 @@ If you need any help for a problem that is not listed in the customization guide
         $(document).ready(function() {
             $('iframe.tumblr_audio_player').load( function() {
                 $('iframe.tumblr_audio_player').contents().find("head")
-                    .append($("<style type='text/css'> .audio-player{background:{color:Border 2} !important} </style>"));
+                    .append($("<style type='text/css'> .audio-player{background:{color:Posts} !important} </style>"));
             });
         });
     </script>
@@ -260,7 +260,7 @@ If you need any help for a problem that is not listed in the customization guide
             hr{
                 width:80%;
                 height:2px;
-                background-color:{color:Border 2};
+                background-color:{color:Posts};
                 border:4px double {color:Border 1};
                 border-radius:6px;
             }
@@ -1546,8 +1546,8 @@ If you need any help for a problem that is not listed in the customization guide
                     border:4px double {color:Border 1};
                     margin-top:3em;
                     margin-bottom:3em;
-                    background-color:{color:Border 2};
-                    background-color:rgba({RGBcolor:Border 2},0.9);
+                    background-color:{color:Posts};
+                    background-color:rgba({RGBcolor:Posts},0.9);
                     display:flex;
                     align-items:center;
                     justify-content:center;
@@ -1668,8 +1668,8 @@ If you need any help for a problem that is not listed in the customization guide
                     border:4px double {color:Border 1};
                     margin-top:3em;
                     margin-bottom:3em;
-                    background-color:{color:Border 2};
-                    background-color:rgba({RGBcolor:Border 2},0.9);
+                    background-color:{color:Posts};
+                    background-color:rgba({RGBcolor:Posts},0.9);
                     display:flex;
                     align-items:center;
                     justify-content:center;
