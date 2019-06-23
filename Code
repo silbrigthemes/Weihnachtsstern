@@ -68,7 +68,7 @@ If you need any help for a problem that is not listed in the customization guide
         $(document).ready(function() {
             $('iframe.tumblr_audio_player').load( function() {
                 $('iframe.tumblr_audio_player').contents().find("head")
-                    .append($("<style type='text/css'> .audio-player{background:{color:Posts} !important} </style>"));
+                    .append($("<style type='text/css'> .audio-player{background:{color:Border 2} !important} </style>"));
             });
         });
     </script>
@@ -115,7 +115,7 @@ If you need any help for a problem that is not listed in the customization guide
     <meta name="select:Title Font" content="Merriweather" title="Merriweather"/>
     <meta name="select:Title Font" content="Taviraj" title="Taviraj"/>
 
-    <meta name="text:Unordered List" content="e338"/>
+    <meta name="text:Unordered List" content="eb68"/>
     <meta name="text:Sidebar Opacity" content="0.85"/>
     <meta name="text:Post Opacity" content="0.9"/>
 
@@ -260,7 +260,7 @@ If you need any help for a problem that is not listed in the customization guide
             hr{
                 width:80%;
                 height:2px;
-                background-color:{color:Posts};
+                background-color:{color:Border 2};
                 border:4px double {color:Border 1};
                 border-radius:6px;
             }
@@ -976,7 +976,7 @@ If you need any help for a problem that is not listed in the customization guide
             }
 
             /* User Name Link */
-            .user a{
+            .user a, a.user{
                 text-decoration:none;
                 border-bottom:none;
                 box-shadow:none;
@@ -1034,7 +1034,7 @@ If you need any help for a problem that is not listed in the customization guide
 
             /* Original Post */
             li.reblog.original_post:before{
-                content:"\e912";
+                content:"\eb1b";
                 font-family:"honeybee";
                 font-weight:400;
                 position:relative;
@@ -1046,7 +1046,7 @@ If you need any help for a problem that is not listed in the customization guide
 
             /* Liked by … */
             li.like:before{
-                content:"\e155";
+                content:"\ea55";
                 font-family:"honeybee";
                 font-weight:400;
                 position:relative;
@@ -1058,7 +1058,7 @@ If you need any help for a problem that is not listed in the customization guide
 
             /* Reblogged by … */
             li.reblog:before{
-                content:"\e3f1";
+                content:"\ebc2";
                 font-family:"honeybee";
                 font-weight:400;
                 position:relative;
@@ -1070,7 +1070,7 @@ If you need any help for a problem that is not listed in the customization guide
 
             /* User Replied to … */
             li.reply:before{
-                content:"\e418";
+                content:"\ebcf";
                 font-family:"honeybee";
                 font-weight:400;
                 position:relative;
@@ -1299,7 +1299,7 @@ If you need any help for a problem that is not listed in the customization guide
 
             /* Like Button Before Element */
             .like_button::before{
-                content:"\e155";
+                content:"\ea55";
                 font-family:"honeybee";
                 font-weight:400;
                 position:relative;
@@ -1546,8 +1546,8 @@ If you need any help for a problem that is not listed in the customization guide
                     border:4px double {color:Border 1};
                     margin-top:3em;
                     margin-bottom:3em;
-                    background-color:{color:Posts};
-                    background-color:rgba({RGBcolor:Posts},0.9);
+                    background-color:{color:Border 2};
+                    background-color:rgba({RGBcolor:Border 2},0.9);
                     display:flex;
                     align-items:center;
                     justify-content:center;
@@ -1668,8 +1668,8 @@ If you need any help for a problem that is not listed in the customization guide
                     border:4px double {color:Border 1};
                     margin-top:3em;
                     margin-bottom:3em;
-                    background-color:{color:Posts};
-                    background-color:rgba({RGBcolor:Posts},0.9);
+                    background-color:{color:Border 2};
+                    background-color:rgba({RGBcolor:Border 2},0.9);
                     display:flex;
                     align-items:center;
                     justify-content:center;
@@ -1734,7 +1734,7 @@ If you need any help for a problem that is not listed in the customization guide
         <div id="big-box">
             <a href="https://www.tumblr.com/dashboard" title="go to dashboard" class="boxlink">
                 <div class="box">
-                    <span class="th th-tumblr-2"></span>
+                    <span class="th th-tumblr-o"></span>
                 </div>
             </a>
 
@@ -1746,19 +1746,19 @@ If you need any help for a problem that is not listed in the customization guide
 
             <a href="https://www.tumblr.com/customize/{Name}?redirect_to=https%3A%2F%2F{Name}.tumblr.com" title="customize theme" class="boxlink">
                 <div class="box">
-                    <span class="th th-pencil-1-o"></span>
+                    <span class="th th-pencil-o"></span>
                 </div>
             </a>
 
             <a href="https://www.tumblr.com/settings/blog/{Name}" title="change settings" class="boxlink">
                 <div class="box">
-                    <span class="th th-settings-5-o"></span>
+                    <span class="th th-settings-o"></span>
                 </div>
             </a>
 
             <a href="https://www.tumblr.com/follow/{Name}" title="follow {Name}" class="boxlink">
                 <div class="box">
-                    <span class="th th-plus-2-o"></span>
+                    <span class="th th-plus-1-o"></span>
                 </div>
             </a>
         </div>
@@ -1782,7 +1782,7 @@ If you need any help for a problem that is not listed in the customization guide
                 <!-- Home Link -->
                 <a href="/" title="home" class="navlink">
                     <div class="nav">
-                        <span class="th th-house-2-o"></span>
+                        <span class="th th-home-o"></span>
                     </div>
                 </a>
                 <!-- Askbox Link -->
@@ -1835,7 +1835,7 @@ If you need any help for a problem that is not listed in the customization guide
                     {block:PreviousPage}
                     <a class="f-pagi-link" href="{PreviousPage}" title="previous">
                         <div class="f-box">
-                            <span class="th th-backward-arrow"></span>
+                            <span class="th th-chevron-left"></span>
                         </div>
                     </a>
                     {/block:PreviousPage}
@@ -1858,7 +1858,7 @@ If you need any help for a problem that is not listed in the customization guide
                     {block:NextPage}
                     <a class="f-pagi-link" href="{NextPage}" title="next">
                         <div class="f-box">
-                            <span class="th th-skip-track"></span>
+                            <span class="th th-chevron-right"></span>
                         </div>
                     </a>
                     {/block:NextPage}
@@ -1894,7 +1894,7 @@ If you need any help for a problem that is not listed in the customization guide
                     <!-- Home Link -->
                     <a href="/" title="home" class="h-navlink">
                         <div class="h-nav">
-                            <span class="th th-house-2-o"></span>
+                            <span class="th th-home-o"></span>
                         </div>
                     </a>
                     <!-- Askbox Link -->
@@ -1960,7 +1960,7 @@ If you need any help for a problem that is not listed in the customization guide
                       <div class="username">
                       {block:HasAvatar}
                       {block:HasPermalink}
-                      <a href="{Permalink}" target="_blank">
+                      <a href="{Permalink}" target="_blank" class="user">
                       <img class="cimg" src="{PortraitURL-64}" alt="user icon"></a>
                       {/block:HasPermalink}
                       {block:HasNoPermalink}
@@ -2013,7 +2013,7 @@ If you need any help for a problem that is not listed in the customization guide
                       <div class="username">
                       {block:HasAvatar}
                       {block:HasPermalink}
-                      <a href="{Permalink}" target="_blank">
+                      <a href="{Permalink}" target="_blank" class="user">
                       <img class="cimg" src="{PortraitURL-64}" alt="user icon"></a>
                       {/block:HasPermalink}
                       {block:HasNoPermalink}
@@ -2066,9 +2066,10 @@ If you need any help for a problem that is not listed in the customization guide
                   {/block:NotReblog}
                   {block:RebloggedFrom}
                       {block:Reblogs}
+                      <div class="username">
                       {block:HasAvatar}
                       {block:HasPermalink}
-                      <a href="{Permalink}" target="_blank">
+                      <a href="{Permalink}" target="_blank" class="user">
                       <img class="cimg" src="{PortraitURL-64}" alt="user icon"></a>
                       {/block:HasPermalink}
                       {block:HasNoPermalink}
@@ -2085,6 +2086,7 @@ If you need any help for a problem that is not listed in the customization guide
                       {block:HasNoPermalink}
                       <span class="user"> <mark>{Username}</mark> </span>
                       {/block:HasNoPermalink}
+                      </div>
                       <div class="body-text">{Body}</div>
                       {/block:Reblogs}
                       {/block:RebloggedFrom}
@@ -2129,7 +2131,7 @@ If you need any help for a problem that is not listed in the customization guide
                       <div class="username">
                       {block:HasAvatar}
                       {block:HasPermalink}
-                      <a href="{Permalink}" target="_blank">
+                      <a href="{Permalink}" target="_blank" class="user">
                       <img class="cimg" src="{PortraitURL-64}" alt="user icon"></a>
                       {/block:HasPermalink}
                       {block:HasNoPermalink}
@@ -2240,7 +2242,7 @@ If you need any help for a problem that is not listed in the customization guide
                       {block:HasNoPermalink}
                       <span class="user">
                       <mark>
-                      <span class="th th-user-3-o"></span> {Username}
+                      <span class="th th-user-o"></span> {Username}
                       </mark>
                       </span>
                       {/block:HasNoPermalink}
@@ -2354,7 +2356,7 @@ If you need any help for a problem that is not listed in the customization guide
                   {block:RebloggedFrom}
                   <div class="via">
                       <a class="specs" href="{ReblogParentURL}" title="via">
-                          <mark><span class="th th-right-arrow-curved" aria-hidden="true"></span> via</mark>
+                          <mark><span class="th th-forward" aria-hidden="true"></span> via</mark>
                       </a>
                   </div>
 
@@ -2364,7 +2366,7 @@ If you need any help for a problem that is not listed in the customization guide
                   {block:ContentSource}
                   <div class="source">
                       <a class="specs" href="{SourceURL}" title="source">
-                          <mark><span class="th th-placeholder-4-o" aria-hidden="true"></span> source</mark>
+                          <mark><span class="th th-location-4-o" aria-hidden="true"></span> source</mark>
                       </a>
                   </div>
 
@@ -2373,7 +2375,7 @@ If you need any help for a problem that is not listed in the customization guide
                   <!-- REBLOG BUTTON -->
                   <div class="reblogged">
                       <a class="specs" href="{ReblogURL}" title="reblog this post">
-                          <mark><span class="th th-reload-arrow" aria-hidden="true"></span> reblog</mark>
+                          <mark><span class="th th-reblog" aria-hidden="true"></span> reblog</mark>
                       </a>
                   </div>
 
@@ -2390,7 +2392,7 @@ If you need any help for a problem that is not listed in the customization guide
                   {block:Tags}
                   <a class="specs" href="{TagURL}" title="tagged as: {Tag}">
                       <mark>
-                          <span class="th th-tag-o" aria-hidden="true"></span> {Tag}
+                          # {Tag}
                       </mark>
                   </a>
                   {/block:Tags}
